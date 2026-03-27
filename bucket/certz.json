@@ -1,0 +1,16 @@
+{
+    "version": "0.4.0",
+    "description": "Developer-friendly X.509 certificate toolkit. Single self-contained executable.",
+    "homepage": "https://github.com/michaellwest/certz",
+    "license": "MIT",
+    "url": "https://github.com/michaellwest/certz/releases/download/0.4.0/certz-0.4.0-win-x64.exe#/certz.exe",
+    "hash": "035b7ba695306e357b9886593a1bb5b3f4799d64e9def74b3d73d38108e8b08d",
+    "bin": "certz.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/michaellwest/certz/releases/download/$version/certz-$version-win-x64.exe#/certz.exe",
+        "hash": {
+            "url": "https://github.com/michaellwest/certz/releases/download/$version/certz-$version-win-x64.exe.sha256"
+        }
+    }
+}
